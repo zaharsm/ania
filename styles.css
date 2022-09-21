@@ -1,0 +1,170 @@
+body{
+    background-color: #e0e0e0;
+}
+
+.top__Navbar{
+    display: flex;
+    padding: 2px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top__NavbarRight{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__NavbarRight > h5{
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.top__NavbarLogo{
+    display: flex;    
+}
+
+.blue{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#a77bfd ;
+    margin-right: 2px;
+}
+
+.red{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#ff7f65 ;
+    margin-right: 2px;      
+}
+
+.yellow{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#fade00 ;
+    margin-right: 2px;  
+    text-align: right;  
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+h5:hover{
+  color:#ff7f65 ; 
+}
+
+.top__content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+.top__contentLeft{
+    max-width: 280px;
+}
+
+.top__contentLeft > h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 150px; 
+}
+
+.top__contentRight > img{
+    width: 285px;
+}
+
+.top__contentLeft > button{
+    background-color: #ef866c;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.purple{
+    background-color: #a17df4;
+    width: 100px;
+    height: 10px;
+    border-radius: 1px;
+}
+
+.top__contentLeft > p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.middle{
+    background-color: white;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.middle__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.ania{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 150px;
+    
+}
+
+.middle__aboutus > p {
+    max-width:275px; 
+    display: flex;
+    flex-direction: column;   
+}
+
+
+.middle__contactus{
+    margin: 100px 0;  
+}
+
+.middle__radio {
+    margin-top: 10px; 
+}
+
+.middle__checkbox{
+    margin-top: 20px; 
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+}
+
+.fName{
+    word-spacing: 105px;
+}
+
+.middle__contactButton{
+   background-color:#ef866c;
+   color: white; 
+   border: 0;
+   padding: 7px 15px;
+   margin-top: 10px;
+   border-radius: 15px;
+}
+
+.footer__line >li{
+     margin-bottom: 20px;     
+}
+
+.footer{
+    background-color:#0000ff;
+    padding: 20px 0;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
